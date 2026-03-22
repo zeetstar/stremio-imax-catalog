@@ -55,7 +55,12 @@ const manifest = {
     p2p: false,
   },
 };
-
+{
+  "stremioAddonsConfig": {
+    "issuer": "https://stremio-addons.net",
+    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..u4MVAS5Z2fajBobIkrDimg.wFRpEs2kVNoUoFJBWrgnjB4kQDHgHMjWak0oZ7vynV9wya2oeYGDXd25G3K2fWQHLEZnj4-LjeCDo1iNck_TTB6nsqDbHH3BCWZEoEJwdqLjECK_gca-HEz5NLomVoe5.dLenJWqzolG6ddAy7ZsgYg"
+  }
+}
 const builder = new addonBuilder(manifest);
 
 // ======================== HELPERS ========================
