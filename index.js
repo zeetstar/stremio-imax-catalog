@@ -50,17 +50,16 @@ const manifest = {
     "Browse movies that have IMAX versions available (expanded aspect ratio, open matte, IMAX Enhanced). Helps you find the right version to stream.",
   logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/IMAX_logo.svg/1200px-IMAX_logo.svg.png",
   idPrefixes: ["tt"],
-  behaviorHints: {
+ behaviorHints: {
     adult: false,
     p2p: false,
   },
+  stremioAddonsConfig: {
+    issuer: "https://stremio-addons.net",
+    signature: "PASTE_THE_FULL_SIGNATURE_HERE"
+  },
 };
-{
-  "stremioAddonsConfig": {
-    "issuer": "https://stremio-addons.net",
-    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..u4MVAS5Z2fajBobIkrDimg.wFRpEs2kVNoUoFJBWrgnjB4kQDHgHMjWak0oZ7vynV9wya2oeYGDXd25G3K2fWQHLEZnj4-LjeCDo1iNck_TTB6nsqDbHH3BCWZEoEJwdqLjECK_gca-HEz5NLomVoe5.dLenJWqzolG6ddAy7ZsgYg"
-  }
-}
+
 const builder = new addonBuilder(manifest);
 
 // ======================== HELPERS ========================
@@ -184,10 +183,3 @@ console.log(`
 ║  Total movies in database: ${imaxMovies.length.toString().padEnd(25)}║
 ╚══════════════════════════════════════════════════════╝
 `);
-
-{
-  "stremioAddonsConfig": {
-    "issuer": "https://stremio-addons.net",
-    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..u4MVAS5Z2fajBobIkrDimg.wFRpEs2kVNoUoFJBWrgnjB4kQDHgHMjWak0oZ7vynV9wya2oeYGDXd25G3K2fWQHLEZnj4-LjeCDo1iNck_TTB6nsqDbHH3BCWZEoEJwdqLjECK_gca-HEz5NLomVoe5.dLenJWqzolG6ddAy7ZsgYg"
-  }
-}
