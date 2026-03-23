@@ -56,7 +56,7 @@ const manifest = {
   },
   stremioAddonsConfig: {
     issuer: "https://stremio-addons.net",
-    signature: "PASTE_THE_FULL_SIGNATURE_HERE"
+    signature: "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..ZZHtlfKYfmiw8bn0rZLh7Q.tqpHQb5t7X7ukiEBUu21rhoG4ppUQ-_XmSSBnd3V8Zg1BTfAtsM2Hyt6yCnK_QC4CHbikdItFLg7144spiPS6v15LD_IT7DCUSUs7pQuleEl_2xI1BLAxV8G3XALWF85.oTis041-aUKFTNJvqUeo-g"
   },
 };
 
